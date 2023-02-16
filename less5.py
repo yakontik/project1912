@@ -76,3 +76,6 @@ print(message)
 userName=" Kt  "
 print(userName)
 print(userName.strip())
+
+
+
