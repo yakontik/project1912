@@ -49,3 +49,14 @@ for requested_topping in requested_toppings:
         print(f'Sorry,we dont have {requested_topping}')
 
 print(f'My pizza:{my_pizza}')
+other_list =[3,4,7,8, "JS", [67,77]]
+include_list=other_list[4]
+print(other_list[0])
+print(other_list[4][1])
+other_list[0]=33
+
+tuple1=("nik","DHG","fyb","gfujv")
+login, username,email, password=tuple1
+
+print(f'Userinfo: {login}; {username}; {email}; {password}')
+
