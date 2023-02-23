@@ -41,12 +41,12 @@ for list_of_day in list_to_dos.keys():
     for list_to_do in list_to_dos[list_of_day]:
         print(f'{cout_todo}. {list_to_do}')
         cout_todo+=1
-
+'''
 delete_todo=input("Введіть справу яку треба видалити: ")
 for list_of_day in list_to_dos.keys():
     if delete_todo in list_to_dos[list_to_do]:
         list_to_dos[list_of_day].remove(delete_todo)
-
+'''
 for list_of_day in list_to_dos.keys():
     print(list_of_day)
     cout_todo=1
